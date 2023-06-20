@@ -1,6 +1,6 @@
-#Install
+# Install
 
-###Configure on Azure Active Directory
+### Configure on Azure Active Directory
 Register the application on the Azure Active Directory
 https://learn.microsoft.com/pt-br/azure/active-directory/develop/quickstart-register-app
 
@@ -10,7 +10,7 @@ https://learn.microsoft.com/pt-br/azure/active-directory/develop/quickstart-conf
  ![alt](docs/permissions.png)
 
 
-###Run
+### Run
 ```bash
 npm install
 ```
