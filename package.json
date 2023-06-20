@@ -1,0 +1,31 @@
+{
+  "name": "download-xml-office365",
+  "version": "1.0.0",
+  "description": "Download XML",
+  "main": "bin/index.js",
+  "bin": {
+    "msal-node-cli": "bin/index.js"
+  },
+  "scripts": {
+    "start": "node ./bin/index.js",
+    "build": "npx pkg . -d"
+  },
+  "pkg": {
+    "targets": [ "node16-win-x64" ],
+    "assets": [ ],
+    "scripts": [
+      "src/**/*.js"
+    ],
+    "outputPath": ".build"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@azure/msal-node": "^1.9.1",
+    "axios": "^0.27.2",
+    "cli-color": "^2.0.3",
+    "cron": "^2.3.1",
+    "dayjs": "^1.11.8",
+    "dotenv": "^16.0.1"
+  }
+}
